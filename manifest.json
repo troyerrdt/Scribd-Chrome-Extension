@@ -1,0 +1,22 @@
+{
+  "name": "Scribd Chrome Extension",
+  "version": "1.0.0",
+  "description": "View a book from Amazon on Scribd",
+  "icons": { "128": "icon.png" },
+  "background": { 
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    { "matches": ["http://*.amazon.com/*"], "js": ["content.js"] }
+  ],
+  "permissions": [
+    "tabs",
+    "https://www.scribd.com/*"
+  ],
+  "page_action": {
+      "default_icon": "icon.png",
+      "default_title": "Find this on Scribd!"
+  },
+  "manifest_version": 2
+}
