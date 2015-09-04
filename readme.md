@@ -1,8 +1,8 @@
 # Scribd Chrome Extension
 
-This Chrome Extension tells you whether or not the current book you're looking at on Amazon is available on [Scribd](://scribd.com). If so, it'll show the Scribd logo in the omnibox and clicking it will take you to the book page on Scribd. Yay!
+This Chrome Extension tells you whether or not the current book you're looking at on Amazon is available on [Scribd](https://scribd.com). If so, it'll show the Scribd logo in the omnibox and clicking it will take you to the book page on Scribd. Yay!
 
-(adapted from [Oyster Chrome Extension](:https://github.com/connor/Oyster-Chrome-Extension))
+(adapted from [Oyster Chrome Extension](https://github.com/connor/Oyster-Chrome-Extension))
 
 
 ## How to Install
