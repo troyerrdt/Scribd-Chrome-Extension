@@ -4,6 +4,9 @@ This Chrome Extension tells you whether or not the current book you're looking a
 
 (adapted from [Oyster Chrome Extension](https://github.com/connor/Oyster-Chrome-Extension))
 
+## Example
+
+![](screenshot.png?raw=true "screenshot")
 
 ## How to Install
 
