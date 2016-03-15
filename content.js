@@ -14,6 +14,10 @@ for (var i = 0; i < authorNodes.length; i++) {
 }
 
 if (!titleNode) {
+    titleNode = document.querySelector('#ebooksProductTitle');
+}
+
+if (!titleNode) {
     titleNode = document.querySelector('.kindleBanner i');
 }
 
