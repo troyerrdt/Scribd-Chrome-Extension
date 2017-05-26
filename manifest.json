@@ -8,7 +8,7 @@
     "persistent": true
   },
   "content_scripts": [
-    { "matches": ["http://*.amazon.com/*"], "js": ["content.js"] }
+    { "matches": ["*://*.amazon.com/*"], "js": ["content.js"] }
   ],
   "permissions": [
     "tabs",
